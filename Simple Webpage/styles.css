@@ -1,18 +1,19 @@
-*{
+body {
     background-color: lightseagreen;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    margin: 5px;
+    margin: 0;
+    padding: 0;
 }
 
-h1, img {
-    text-align: center;
-    
-}
-
-h1{
+h1 {
     color: yellow;
-    
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: left;
+    margin-left: 25px;
 }
 
 img {
@@ -22,4 +23,3 @@ img {
     width: 50%;
     border-radius: 10%;
 }
-
