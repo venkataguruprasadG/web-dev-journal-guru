@@ -13,7 +13,18 @@ nav{
     background-color: yellow;
 }
 
-a{
-    background-color: yellow;
+nav a{
     color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.2sec;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: orange;
+    color: white;
 }
