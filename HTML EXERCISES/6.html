@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td{
+            padding: 8px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #footer-row{
+            background-color: lightgray
+        }
+    </style>
+    <title>Problem 6</title>
+</head>
+<body>
+    <h1>Table Styling and Advanced Attributes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                    Quantity Available
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Watch
+                </td>
+                <td>
+                    1999/-
+                </td>
+                <td>
+                    50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile
+                </td>
+                <td>
+                    15000/-
+                </td>
+                <td>
+                    30
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Laptop
+                </td>
+                <td>
+                    45000/-
+                </td>
+                <td>
+                    20
+                </td>
+            </tr>
+
+            <tr id="footer-row">
+                <td colspan="3" style="text-align:center; font-weight:bold;">
+                    End of the Catalog.
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
