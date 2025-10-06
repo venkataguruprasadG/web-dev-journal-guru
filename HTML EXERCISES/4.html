@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+  table {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  form {
+    width: 50%;
+  }
+</style>
+    <title>Problem 4</title>
+</head>
+<body>
+    <h2>
+        Product Catalog
+        <br>
+    </h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th> Product Name</th>
+            <th>Price Name</th>
+            <th>Quantity Available</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wireless Mouse</td>
+                <td>599/-</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>
+        Order Form
+    </h2>
+
+    <form>
+        <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="product">Select Product:</label><br>
+    <select id="product" name="product" required>
+      <option value="">--Choose a product--</option>
+      <option value="Wireless Mouse">Wireless Mouse</option>
+      <option value="Bluetooth Speaker">Bluetooth Speaker</option>
+      <option value="USB-C Charger">USB-C Charger</option>
+    </select><br><br>
+
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+    <button type="submit">Submit Order</button>
+    </form>
+
+</body>
+</html>
